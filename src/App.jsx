@@ -2,6 +2,7 @@ import React, { useRef, useState} from "react";
 import ReactQuill , { Quill } from 'react-quill-with-table';
 import QuillBetterTable from 'quill-better-table';
 import 'react-quill-with-table/dist/quill.snow.css';
+import 'quill-better-table/dist/quill-better-table.css';
 
 Quill.register({
   "modules/better-table": QuillBetterTable,
